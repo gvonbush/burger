@@ -23,5 +23,6 @@ var orm = {
             if (err) throw err;
             console.log(result);
           });
-        }}
-        module.exports = orm
+}}
+
+module.exports = orm

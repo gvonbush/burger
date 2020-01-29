@@ -29,6 +29,7 @@ router.post("/api/new", function(req, res) {
           console.log(data)
           console.log("api call")
           res.render("index", {burgerInfo:data})
+          
       })
   }
 

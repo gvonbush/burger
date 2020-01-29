@@ -9,6 +9,7 @@ var orm = {
         data(result)
       });
     },
+    
 
     insertOne: function(tableInput, burger_name) {
         var queryString = "INSERT into ?? (burger_name) value (?)";
